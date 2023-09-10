@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Inter:wght@400;800&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&family=Noto+Sans+Symbols:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Outfit:wght@100;200;300&family=Playfair+Display:wght@500&family=Raleway:wght@400;800&family=Red+Hat+Display:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;800&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@500;700&family=Noto+Sans+Symbols:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Outfit:wght@100;200;300&family=Playfair+Display:wght@500&family=Raleway:wght@400;800&family=Red+Hat+Display:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fraunces";
+  font-weight: 500;
+}
+
+body {
+  background: hsl(30, 38%, 92%);
+  padding: 5%;
+}
+
+.prix {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  font-size: 40px;
+  color: hsl(158, 36%, 37%);
+}
+
+.discount {
+  padding-left: 20px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+}
+
+.bttn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  text-decoration: none;
+  color: white;
+  background: hsl(158, 36%, 37%);
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+
+.bttn:active:hover {
+    background: #1A4031;
+}
+
+
+
+.icon {
+  width: 8%;
+  padding-left: ;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+main {
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  columns: 1;
+}
+
+.txt-container {
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 20px;
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+.parag1 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: hsl(228, 12%, 48%);
+  padding-bottom: 20px;
+}
+
+.attribution {
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
