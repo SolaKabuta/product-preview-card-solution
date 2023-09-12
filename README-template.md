@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/SolaKabuta/product-preview-card-solution)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://solakabuta.github.io/product-preview-card-solution/)
 
 ## My process
 
